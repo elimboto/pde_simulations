@@ -70,9 +70,9 @@ $virtualenv -p /usr/bin/python2.7 PDEs
 
 This is especially very important and useful if you have several Python versions installed in your system, to avoid possible problems.
 
-Next, make directory where you will put your code, in our case, we will make directory a directory under /home/user/ called PDEs_Simulations:
+Next, make directory where you will put your code, in our case, we will make directory a directory under /home/user/ called pde_simulations:
 
-$mkdir  PDEs_Simulations
+$mkdir  pde_simulations
 
 Create a Python file, for example, named "burgers.py": 
 
