@@ -60,8 +60,11 @@ $source PDEs/bin/activate
 Install requirements - numpy and scitools:
 
 $pip install numpy
+
 $git clone https://github.com/hplgit/scitools.git
+
 $cd scitools
+
 $python setup.py install
 
 If your system uses Python 2.7.x, you do not need to re-install it inside virtualenv, instead create a virtualenv PDEs on fly by specifying the python version to be used with it. In our case, we want to use python 2.7, so we would run the following command:
@@ -70,7 +73,7 @@ $virtualenv -p /usr/bin/python2.7 PDEs
 
 This is especially very important and useful if you have several Python versions installed in your system, to avoid possible problems.
 
-Next, make directory where you will put your code, in our case, we will make directory a directory under /home/user/ called pde_simulations:
+Next, make directory where you will put your code, in our case, we will make a directory under /home/user/ called pde_simulations:
 
 $mkdir  pde_simulations
 
